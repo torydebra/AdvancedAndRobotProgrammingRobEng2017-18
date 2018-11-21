@@ -1,0 +1,10 @@
+To compile:
+main.c pub.c mediator.c and sub.c all need writeLog.c to compile (it is a external file for function to write in logfile)
+
+To execute:
+<nameMain> <namePub> <nameMediator> <nameSub> 
+
+Loop are infinite so to terminate user must send sigInt (ctrl+c) which will be catched by main 
+which will terminate all sons and them himself
+
+log are in a file called "logfile"

@@ -1,0 +1,1 @@
+main, first, second have to be compiled with writelog (external file for function to write in logfile)
